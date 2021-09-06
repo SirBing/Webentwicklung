@@ -1,7 +1,10 @@
 body {
+    max-width: 1600px;
+    width: 80%;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     background-color: lightgray;
-    margin: 0 auto; 
+    margin: 0 auto 0 auto; 
+    padding: 0;
 }
 
 header, main {
@@ -11,12 +14,12 @@ header, main {
 ul {
     margin: 0;
     width: 100%;
-    padding: auto;
+    padding: 20px 0 20px 0;
 }
 
 ul li {
     list-style-type: none;
-    display: inline;
+    float: left;
     margin: 0 10px;
 }
 
@@ -26,12 +29,39 @@ nav a {
 }
 
 article {
-    padding: auto;
+    padding: 25px;
+    width: calc(100% - 50px);
+}
+
+article h4 {
+    margin-top: 0;
+}
+
+section article img {
+    width: 25%;
+    float: left;
+    margin-right: 25px;
+}
+
+section article p {
+    font-size: 14px;
 }
 
 article a {
-    margin: 0px;
+    color: mediumslateblue;
 }
+
+section {
+    height: calc(100vh - 40px);
+}
+
+section img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
 
 
 
