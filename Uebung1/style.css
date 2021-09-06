@@ -1,0 +1,23 @@
+body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 800;
+}
+
+h1 {
+    color: yellow;
+    background-color: rgb(166, 112, 218);
+}
+
+h3 {
+    color: rgb(133, 0, 104);
+    background-color: darkgoldenrod;
+}
+
+a {
+    color: chartreuse;
+    font-size: 1.5rem;
+    line-height: 100px;
+}
+
+
+
