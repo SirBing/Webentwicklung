@@ -1,0 +1,40 @@
+body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background-color: lightgray;
+    margin: 0 auto; 
+}
+
+header, main {
+    background-color: #fff;
+}
+
+ul {
+    margin: 0;
+    width: 100%;
+    padding: auto;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+article {
+    padding: auto;
+}
+
+article a {
+    margin: 0px;
+}
+
+
+
+
+
+
