@@ -94,13 +94,25 @@ main section {
 main .service {
     margin-bottom: 20px;
     font-size: 350%;
-    font-weight: 700;
+}
+
+#thin {
+    font-weight: 300;
+}
+
+#bold {
+    font-weight: 600;
+}
+
+main .textline {
+    margin-bottom: 24px;
+    color: grey;
 }
 
 main .icon {
     color: lightgrey;
     text-align: center;
-    font-size: 1200%;
+    font-size: 1400%;
 }
 
 /* Ende: Main */
