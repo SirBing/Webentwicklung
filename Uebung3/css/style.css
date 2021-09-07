@@ -48,7 +48,7 @@ header ul li a:hover {
 .slogan {
     color:#fff;
     text-align: center;
-    padding-top: 35vh;
+    padding-top: 30vh;
     text-shadow: 0 0 1px #000;
 }
 
@@ -70,7 +70,7 @@ header ul li a:hover {
     padding-left: 40px;
     padding-right: 40px;
     font-weight: 400;
-    margin-top: 24px;
+    margin-top: 16px;
 }
 
 .btn.btn-outline-primary:hover {
@@ -82,17 +82,20 @@ header ul li a:hover {
 
 /* Start: Main */
 
-main {
+main .webDevelopment {
+    background-color: #fff;
+}
+
+main .identityBranding, .clients {
+    background-color: #eee;
+}
+
+main .row {
     margin-left: 12%;
     margin-right: 12%;
 }
 
-main section {
-    margin-top: 20px;
-}
-
 main .service {
-    margin-bottom: 20px;
     font-size: 350%;
 }
 
@@ -104,15 +107,77 @@ main .service {
     font-weight: 600;
 }
 
-main .textline {
-    margin-bottom: 24px;
+main .service, main .skills, main .clients .clients_headline {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+main .text {
+    color: grey;
+    margin-bottom: 40px;
+}
+
+main .icon-right {
+    color: lightgrey;
+    text-align: right;
+    font-size: 1200%;
+    margin-top: 50px;
+}
+
+main .icon-left {
+    color: lightgrey;
+    text-align: left;
+    font-size: 1200%;
+    margin-top: 50px;
+}
+
+main .skills .smallIcon {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    background-color: #222;
+    border-radius: 50%;
+    padding-top: 7px;
+}
+
+main .clients .clients_headline {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+main .clients .clients_headline span {
+    font-size: 350%;
+}
+
+main .clients .customerPicture img {
+    border-radius: 50%;
+    padding: 5px;
+    width: 200px;
+    height : 200px;
+    text-align: center;
+    object-fit: scale-down;
+}
+
+main .clients .quote {
+    color: grey;
+    font-size: 22px;
+    border: 1px solid #222;
+    padding: 32px;
+    margin: 16px;
+    background-color: #fff;
+    font-weight: 200;
+}
+
+main .clients_headline p {
     color: grey;
 }
 
-main .icon {
-    color: lightgrey;
-    text-align: center;
-    font-size: 1400%;
+main .clients .quote_author {
+    color: cadetblue;
+    font-size: 20px;
+    font-size: 20px;
 }
 
 /* Ende: Main */
