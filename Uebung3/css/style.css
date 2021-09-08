@@ -107,14 +107,14 @@ main .service {
     font-weight: 600;
 }
 
-main .service, main .skills, main .clients .clients_headline, main .sponsor_section {
-    padding-top: 40px;
-    padding-bottom: 40px;
+main .service, main .skills, main .clients .clients_headline, main .sponsor_section, main .team {
+    padding-top: 68px;
+    padding-bottom: 68px;
 }
 
 main .text {
     color: grey;
-    margin-bottom: 40px;
+    margin-bottom: 68px;
 }
 
 main .icon-right {
@@ -142,9 +142,13 @@ main .skills .smallIcon {
     padding-top: 7px;
 }
 
+main .clients {
+    padding-bottom: 68px;
+}
+
 main .clients .clients_headline {
     text-align: center;
-    padding-bottom: 0;
+    padding-bottom: 68px;
 }
 
 main .clients .clients_headline span {
@@ -213,9 +217,95 @@ main .clients .quote_author {
     right: -26px;
 }
 
-.sponsor_logo img{
+.sponsor_logo img {
     width: 75%;
     text-align: center;
 }
+
+.team {
+    background-color: #000;
+    color: #fff;
+}
+
+main .team_headline {
+    text-align: center;
+}
+
+main .team_headline span{
+    font-size: 350%;
+}
+
+.team_headline p{
+    color: #aaa;
+    margin-bottom: 68px;
+}
+
+.team .row {
+    text-align: center;
+}
+
+.team .team_member_field img {
+    width: 75%;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+.team .team_member_field p {
+    color: #fff;
+}
+
+.team .team_member_field .social_media i {
+    color: #fff;
+    font-size: 150%;
+    margin: 0 10px 0 10px;
+    border: 2px solid #fff;
+    border-radius: 50%; 
+    padding: 5px 5px 5px 5px;
+    width: 40px;
+    height: 40px;
+    vertical-align:middle;
+    line-height: 26px;
+}
+ .team .team_subline {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 68px;
+ }
+
+ .contact {
+     padding-top: 68px;
+     padding-bottom: 68px;
+     background-color: rgb(135, 166, 250);
+     color: #fff;
+ }
+
+ .contact .contact_headline span{
+    font-size: 350%;
+ }
+
+ .contact .contact_headline p {
+     margin-top: 24px;
+     margin-bottom: 42px;
+ }
+
+ .contact .our_social_media .container,  .contact .our_social_media .container .row{
+     margin-left: 0;
+     padding-left: 0;
+     margin-right: 0;
+     padding-right: 0;
+ }
+
+ .contact .our_social_media i {
+     margin-right: 5px;
+     font-size: 150%;
+ }
+
+ .contact .our_social_media .row .col-sm-6 {
+     margin: 20px 0 20px 0px;
+ }
+
+
 
 /* Ende: Main */
