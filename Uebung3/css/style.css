@@ -107,7 +107,7 @@ main .service {
     font-weight: 600;
 }
 
-main .service, main .skills, main .clients .clients_headline {
+main .service, main .skills, main .clients .clients_headline, main .sponsor_section {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -211,6 +211,11 @@ main .clients .quote_author {
     border-left: 13px solid white;
     top: calc(50% - 13px);
     right: -26px;
+}
+
+.sponsor_logo img{
+    width: 75%;
+    text-align: center;
 }
 
 /* Ende: Main */
