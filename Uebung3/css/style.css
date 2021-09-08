@@ -1,6 +1,9 @@
 body {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 /* Start: Header */
 header {
     background-image: url("../img/bg.jpg");
@@ -332,6 +335,119 @@ main .team_headline span{
     text-align: center;
     font-weight: 100;
  }
-
-
 /* Ende: Main */
+
+@media screen and (max-width: 575px) {
+    .slogan-headline {
+        font-size: 100%;
+        font-weight: 300;
+    }
+    
+    .slogan-text {
+        font-size: 300%;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    main .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    main .container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .webDevelopment .col-md-8{
+        order: 2;
+    }
+
+    .webDevelopment img {
+        text-align: center;
+    }
+
+    .identityBranding .icon-left {
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .identityBranding .service {
+        padding-top: 24px;
+    }
+
+    .skills .col-md-9 h5 {
+        font-size: 16px;
+    }
+
+    .skills .text p{
+        font-size: 14px;
+        padding-top: 0;
+    }
+
+    .skills .smallIcon {
+        margin-right: 5px;
+        margin-bottom: 16px;
+    }
+
+    .skills .text {
+        margin-bottom: 32px;
+    }
+
+    .clients .col-md-8 {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }   
+    
+    .clients .col-md-4 {
+        text-align: center;
+    }
+
+    .arrow_border_left {
+        position: absolute;
+        border: 14px solid transparent;
+        border-bottom: 14px solid #222;
+        left: calc(50% - 14px);
+        top: -28px;
+    }
+    
+    .arrow_left {
+        position: absolute;
+        border: 13px solid transparent;
+        border-bottom: 13px solid white;
+        left: calc(50% - 13px);
+        top: -26px;
+    }
+
+    .arrow_border_right {
+        position: absolute;
+        border: 14px solid transparent;
+        border-top: 14px solid #222;
+        right: calc(50% - 14px);
+        bottom: -28px;
+    }
+    
+    .arrow_right {
+        position: absolute;
+        border: 13px solid transparent;
+        border-top: 13px solid white;
+        right: calc(50% - 13px);
+        bottom: -26px;
+    }
+
+    .team_member_field .social_media {
+        margin-bottom: 68px;
+    }
+
+    .team .team_subline {
+        margin-top: 0;
+    }
+
+    .contact .our_social_media .col-sm-6 {
+        font-size: 12px;
+    }
+
+
+
+}
