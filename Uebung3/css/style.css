@@ -168,6 +168,7 @@ main .clients .quote {
     margin: 16px;
     background-color: #fff;
     font-weight: 200;
+    position: relative;
 }
 
 main .clients_headline p {
@@ -178,6 +179,38 @@ main .clients .quote_author {
     color: cadetblue;
     font-size: 20px;
     font-size: 20px;
+}
+
+.arrow_border_left {
+    position: absolute;
+    border: 14px solid transparent;
+    border-right: 14px solid #222;
+    top: calc(50% - 14px);
+    left: -28px;
+}
+
+.arrow_left {
+    position: absolute;
+    border: 13px solid transparent;
+    border-right: 13px solid white;
+    top: calc(50% - 13px);
+    left: -26px;
+}
+
+.arrow_border_right {
+    position: absolute;
+    border: 14px solid transparent;
+    border-left: 14px solid #222;
+    top: calc(50% - 14px);
+    right: -28px;
+}
+
+.arrow_right {
+    position: absolute;
+    border: 13px solid transparent;
+    border-left: 13px solid white;
+    top: calc(50% - 13px);
+    right: -26px;
 }
 
 /* Ende: Main */
