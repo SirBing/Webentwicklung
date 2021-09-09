@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home_field h2, .about_us_field h2 {
+    background-color: turquoise;
+    padding: 10px 10px;
+    margin-bottom: 0;
+}
+
+.about_us_field h2 {
+    background-color: rgb(98, 231, 98);
+}
+
+.home_field p, .about_us_field p {
+    background-color: #eee;
+    margin-top: 0;
+    padding: 10px 10px;
+}
